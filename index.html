@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>College Website</title>
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;900&family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/89ae628d0a.js" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="https://pbs.twimg.com/profile_images/976683214201765888/Wy4LUm8Q_400x400.jpg" alt="graphic-logo"></a>
+      <div class="nav-links"  id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="course.html">Course</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="header-text">
+      <h1>Graphic Era University</h1>
+      <p>Transforming Dreams Into Reality</p>
+    </div>
+  </section>
+
+
+  <section class="course">
+    <h1>Courses Offered</h1>
+    <p>The B. Tech in Computer Science and Engineering aims to develop graduates that are not only well versed with traditional computing approaches but are also experienced in modern tools, technologies, and diverse applications.
+      <br>The program has a comprehensive set of fundamental courses in computer science and many electives. This enables the students to build a program most suitable for them.
+      <br>The program will prepare students to work in the IT industry as well as in the research areas like computer vision, machine learning, image processing, pattern recognition, virtual/augmented reality, etc.
+      <br>The program will also provide current research trends for students, who want to pursue higher studies, to take up higher studies in CS.
+    </p>
+    <div class="col">
+      <div class="course-col">
+        <h3>Under Graduate</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduate</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="course-col">
+        <h3>Doctoral Programmes</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="campus">
+    <h1>Our Campus</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, s</p>
+    <div class="col">
+      <div class="campus-col">
+        <img src="https://www.euttaranchal.com/icms/cms-photos/Graphic-Era-University.webp" alt="deemed-img">
+        <div class="img-hover">
+          <h3>Deemed</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="https://clgonline.in//static/all_collages/img/graphic-era-hill-university-dehradun-campus-school-of-management-dehradun.png" alt="hill-img">
+        <div class="img-hover">
+          <h3>Hill</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="https://clgonline.in//static/all_collages/img/graphic-era-hill-university-bhimtal-campus-gehu-bhimtal.jpg" alt="bhimtal-img">
+        <div class="img-hover">
+          <h3>Bhimtal</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>GEU campus is not just a backdrop; but it is the foregrounds of your future. It provides a diverse range of cultural, recreational and social activities. With so many choices, students can learn new skills or sports; discover talents they never knew they had and make friendships that will create memories for a lifetime.  The beautifully designed Graphic Era Deemed to be University campus has stimulating aesthetics and is perpetually in motion, with plethora of activities taking place,
+       there is never a dull moment.  We maintain an open and inclusive environment that nurtures the growth and development of the student community. Here you will find compelling opportunities in the arts, health and wellness, community volunteerism and more. We also offer a variety of student services, programs and other resources to help you reach your personal and educational goals.<br><br>GEU has umpteen numbers of exciting experiences available to enrich your   campus life. It is entertaining, and incredibly rewarding with vastly unique activities that vary from academic activities, extracurricular activities and performing arts to live performances by the celebrity artists. There are sunny spots to offer a place to relax and socialize with fellow students, fitness centres and sports centre for outdoor activities. There will be many magical moments, during the annual Grafest, when the whole university pulsates with music and dances. We assure you that your stay with us will be an experience worth cherishing.</p>
+  </section>
+  <section class="cta">
+    <h1>Enroll For Our Various Online Courses <br>From Anywhere In The World</h1>
+    <a href="contact.html" class="custom-button">CONTACT US</a>
+  </section>
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>GEU stands proud as the only university in Uttarakhand recognized as one among the top 100 Universities of the country, as an abode of learning and excellence, surpassing all parameters of assessment like teaching, learning, research, graduation outcome, outreach, industrial presence and more for Indian Institutions of higher education.</p>
+    <div class="icons">
+      <a href="https://twitter.com/GEU_Official?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="footer-link fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/geuofficial/" target="_blank"><i class="footer-link fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/geuofficial/?hl=en" target="_blank"><i class="footer-link fab fa-instagram"></i></a>
+      <a href="mailto:enquiry@geu.ac.in" target="_blank"><i class="footer-link fas fa-envelope"></i></a>
+    <p>© Copyright 2021 Sankalpanthi</p>
+    </div>
+  </section>
+  <!-- Javascript for toggle menu -->
+  <script type="text/javascript">
+    var navLinks = document.getElementById("navLinks");
+    function showMenu()
+    {
+      navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
